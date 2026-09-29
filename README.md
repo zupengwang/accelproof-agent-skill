@@ -6,11 +6,11 @@
 
 | 内容 | 访问入口 |
 | --- | --- |
-| 项目及报告 | [https://zupengwang.github.io/accelproof-agent-skill/](https://zupengwang.github.io/accelproof-agent-skill/) · [完整报告](https://zupengwang.github.io/accelproof-agent-skill/report/) |
-| Demo 视频 | [https://zupengwang.github.io/accelproof-agent-skill/demo/](https://zupengwang.github.io/accelproof-agent-skill/demo/)（3 分 14 秒，中文 AI 配音与字幕） |
-| 参赛征文 | [https://zupengwang.github.io/accelproof-agent-skill/essay/](https://zupengwang.github.io/accelproof-agent-skill/essay/) |
+| 项目及报告 | [https://zupix.me/accelproof-agent-skill/](https://zupix.me/accelproof-agent-skill/) · [完整报告](https://zupix.me/accelproof-agent-skill/report/) |
+| Demo 视频 | [https://zupix.me/accelproof-agent-skill/demo/](https://zupix.me/accelproof-agent-skill/demo/)（3 分 14 秒，中文 AI 配音与字幕） |
+| 参赛征文 | [https://zupix.me/accelproof-agent-skill/essay/](https://zupix.me/accelproof-agent-skill/essay/) |
 | 完整提交包 | [v2.1 Release](https://github.com/zupengwang/accelproof-agent-skill/releases/tag/v2.1) |
-| 交互预览 | [冻结数据的离线预览](https://zupengwang.github.io/accelproof-agent-skill/preview/) |
+| 交互预览 | [冻结数据的离线预览](https://zupix.me/accelproof-agent-skill/preview/) |
 
 ## 本次实验告诉我们什么
 
