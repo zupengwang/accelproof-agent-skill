@@ -1,0 +1,470 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1010000,
+    "duration": 3571250,
+    "text": "技能"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 4836660,
+    "duration": 1275410,
+    "text": "也"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6240000,
+    "duration": 1020000,
+    "text": "各"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7260000,
+    "duration": 1147910,
+    "text": "有"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 8535830,
+    "duration": 4974580,
+    "text": "分工"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 16316250,
+    "duration": 4464160,
+    "text": "收集"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 20908330,
+    "duration": 5995000,
+    "text": "需求"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 29199160,
+    "duration": 6505000,
+    "text": "迁移"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 38765410,
+    "duration": 5357080,
+    "text": "验证"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 47311250,
+    "duration": 2423330,
+    "text": "以及"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49862080,
+    "duration": 2933750,
+    "text": "导出"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53050830,
+    "duration": 1020410,
+    "text": "已"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 54071250,
+    "duration": 1275410,
+    "text": "有"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55474580,
+    "duration": 3316250,
+    "text": "任务"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 64668330,
+    "duration": 3443750,
+    "text": "导出"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 68112080,
+    "duration": 3954160,
+    "text": "时"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 75765410,
+    "duration": 1913330,
+    "text": "不"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 77678750,
+    "duration": 2423330,
+    "text": "需要"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 80357080,
+    "duration": 1275410,
+    "text": "再"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 81632500,
+    "duration": 1913330,
+    "text": "跑"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 83673330,
+    "duration": 2295830,
+    "text": "一遍"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 86224580,
+    "duration": 3061250,
+    "text": "完整"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 89413330,
+    "duration": 4209160,
+    "text": "实验"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 99490000,
+    "duration": 2168330,
+    "text": "我们"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 101785830,
+    "duration": 1530410,
+    "text": "还"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 103316250,
+    "duration": 2678750,
+    "text": "保留"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 105995000,
+    "duration": 637910,
+    "text": "了"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 106887910,
+    "duration": 1147910,
+    "text": "五"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 108035830,
+    "duration": 892910,
+    "text": "组"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 109056250,
+    "duration": 4209160,
+    "text": "对照"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 119132500,
+    "duration": 5102080,
+    "text": "十二道"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 124362080,
+    "duration": 2806250,
+    "text": "策略"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 127168330,
+    "duration": 3443750,
+    "text": "题"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 133673330,
+    "duration": 1785830,
+    "text": "无"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 135459160,
+    "duration": 2806250,
+    "text": "技能"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 138520410,
+    "duration": 2295830,
+    "text": "通过"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 140943750,
+    "duration": 4847080,
+    "text": "十道"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 149107080,
+    "duration": 3061250,
+    "text": "仅"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 152423330,
+    "duration": 3316250,
+    "text": "官方"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 155867500,
+    "duration": 2550830,
+    "text": "技能"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 158545830,
+    "duration": 2168330,
+    "text": "七"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 160714160,
+    "duration": 2295830,
+    "text": "道"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 166199160,
+    "duration": 3571250,
+    "text": "业务"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 169897910,
+    "duration": 4974580,
+    "text": "技能和"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 175000000,
+    "duration": 2550830,
+    "text": "组合"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 177678750,
+    "duration": 3954160,
+    "text": "方案"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 182652910,
+    "duration": 1530410,
+    "text": "都"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 184311250,
+    "duration": 2933750,
+    "text": "通过"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 187500000,
+    "duration": 5229580,
+    "text": "十二道"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 195280410,
+    "duration": 2933750,
+    "text": "固定"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 198341660,
+    "duration": 4081660,
+    "text": "规则"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 202678750,
+    "duration": 1147910,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 203954160,
+    "duration": 3698750,
+    "text": "十一"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 207652910,
+    "duration": 2040830,
+    "text": "道"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 215306250,
+    "duration": 6505000,
+    "text": "注意"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 224107080,
+    "duration": 1785830,
+    "text": "这"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 225892910,
+    "duration": 2423330,
+    "text": "只是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 228571250,
+    "duration": 3826660,
+    "text": "策略"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 232397910,
+    "duration": 3826660,
+    "text": "题"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 241964160,
+    "duration": 2040830,
+    "text": "在"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 244132500,
+    "duration": 3443750,
+    "text": "实际"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 247576660,
+    "duration": 892910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 248724580,
+    "duration": 4209160,
+    "text": "小数据"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 253061250,
+    "duration": 4081660,
+    "text": "流程"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 257142910,
+    "duration": 2423330,
+    "text": "里"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 263010000,
+    "duration": 3316250,
+    "text": "固定"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 266454160,
+    "duration": 4336660,
+    "text": "规则"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 271045830,
+    "duration": 1785830,
+    "text": "还"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 272959160,
+    "duration": 1658330,
+    "text": "更"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 274617500,
+    "duration": 2933750,
+    "text": "快"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 283290830,
+    "duration": 3061250,
+    "text": "这个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 286479580,
+    "duration": 5484580,
+    "text": "结果"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 295152910,
+    "duration": 1530410,
+    "text": "也"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 296811250,
+    "duration": 2423330,
+    "text": "如实"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 299362080,
+    "duration": 1275410,
+    "text": "留"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 300637910,
+    "duration": 892910,
+    "text": "在"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 301658330,
+    "duration": 3571250,
+    "text": "报告"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 305229580,
+    "duration": 1658330,
+    "text": "里"
+  }
+]

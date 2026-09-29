@@ -1,0 +1,15 @@
+{
+  "pid": 20948,
+  "created": 1790608682.89,
+  "cmdline": [
+    ".venv/bin/python",
+    "-m",
+    "accelproof.harness",
+    "--scenario",
+    "large",
+    "--run-id",
+    "v2-final-large"
+  ],
+  "pgid": 20948,
+  "boot_id": "08c4dde7-dbcb-4976-8f49-a234f2d9989a"
+}

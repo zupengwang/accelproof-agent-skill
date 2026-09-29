@@ -1,0 +1,69 @@
+{
+  "results": {
+    "optimized_cpu_same_structure": {
+      "mode": "optimized_cpu_same_structure",
+      "warmup": null,
+      "samples": [
+        0.03205468808300793
+      ],
+      "max_rss_mib": 115.5,
+      "output_sha256": [
+        "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 20623,
+      "execution_profile": "one_shot",
+      "setup_seconds": 0.2918166059534997,
+      "batch_tasks": [],
+      "backend_imported": "pandas",
+      "read_strategy": "full",
+      "process_wall_seconds": 0.5204184791073203,
+      "observed_peak_rss_mib": 117.76953125,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 0.03205468808300793
+    },
+    "optimized_gpu": {
+      "mode": "optimized_gpu",
+      "warmup": null,
+      "samples": [
+        12.933681030990556
+      ],
+      "max_rss_mib": 1058.20703125,
+      "output_sha256": [
+        "96e2fafbdbb9cf56413c0758d7fdfeff94ab9ed26db4a02297d019b02d959a3e"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 20633,
+      "execution_profile": "one_shot",
+      "setup_seconds": 1.110730852931738,
+      "batch_tasks": [],
+      "backend_imported": "cudf",
+      "read_strategy": "full",
+      "process_wall_seconds": 15.004423381993547,
+      "observed_peak_rss_mib": 1121.3984375,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 12.933681030990556
+    }
+  },
+  "parity": [
+    {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 602,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    }
+  ]
+}

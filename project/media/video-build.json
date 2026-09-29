@@ -1,0 +1,127 @@
+{
+  "version": "v2.1 narration revision",
+  "duration_seconds": 194.15,
+  "resolution": "1920x1080",
+  "fps": 25,
+  "narration": "Microsoft Edge neural TTS, zh-CN-YunxiNeural; synthetic, not a human recording",
+  "rate": "-2%",
+  "pitch": "+0Hz",
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "开场",
+      "start": 0,
+      "duration": 20.2,
+      "footage": "large.png",
+      "source_sha256": "147264cb0e8d45246f144e89e060bd8c76c1cbac478bb8e27b83ea9165f747e9",
+      "audio_sha256": "68625b4cf39ece99a60d8d4513df0e2b86eb12257aa856a195f859f4a4b1e397",
+      "edits": null,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 2,
+      "title": "错误与修复",
+      "start": 20.2,
+      "duration": 29.64,
+      "footage": "repair-tour.webm",
+      "source_sha256": "38a6d433db6fd0854f1aa4e7395e64da744498d281b03a3c3d0e580438746b81",
+      "audio_sha256": "ec225f2c4e9882711a1b15ac4373103d96c5af399ee4684b0f9b384735014f3a",
+      "edits": [
+        [
+          0,
+          9,
+          6.5
+        ],
+        [
+          9,
+          24,
+          0
+        ]
+      ],
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 3,
+      "title": "实际运行模式",
+      "start": 49.84,
+      "duration": 32.24,
+      "footage": "profile-tour.webm",
+      "source_sha256": "b9feaa79102652200bbc2c6f7ec04603512b7cceeb20b0505ab7928c408a92ed",
+      "audio_sha256": "2078c8e1ba4afeccf7337d58adc4b22e41a060664f625132f550d8807b752fa6",
+      "edits": [
+        [
+          0,
+          2.4,
+          15.5
+        ],
+        [
+          2.4,
+          9,
+          0
+        ]
+      ],
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 4,
+      "title": "审核导出",
+      "start": 82.08000000000001,
+      "duration": 28.4,
+      "footage": "export-tour.webm",
+      "source_sha256": "86f3b09143dd3a768d5bc58ba7c3824e180be4515bdc49bab957d741264651cf",
+      "audio_sha256": "f686d531ff35d415f24c643daeb9185213af6daac3156872d42a735e7eea6d9a",
+      "edits": null,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 5,
+      "title": "实际 CPU 复用",
+      "start": 110.48000000000002,
+      "duration": 27.76,
+      "footage": "cpu-tour.webm",
+      "source_sha256": "759633d9297c9edaa9bda53a12fa808a901f12f5544223cde279718f7f59e61d",
+      "audio_sha256": "456c73d41eb5c5280c263490b1a804bff71b5414981cf5dfb8ea90184fcc19ee",
+      "edits": null,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 6,
+      "title": "Skills 与规则基线",
+      "start": 138.24,
+      "duration": 32.48,
+      "footage": "skills-tour.webm",
+      "source_sha256": "7b80dc98d86911cdcca047b98d909bc5dd9fc25e544db9ff86fa77f99229eccc",
+      "audio_sha256": "a898b1ab12276406dac887c6bc2941fb5bdf9f7a87b828065610d9e68a22fc87",
+      "edits": null,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    },
+    {
+      "scene": 7,
+      "title": "收尾",
+      "start": 170.72,
+      "duration": 23.32,
+      "footage": "delivery.png",
+      "source_sha256": "cef252ca247ec24728ff38b3e12bc1967121367c0cbe1c4aebeedd0c18875662",
+      "audio_sha256": "25a79efb2e0868e60676993c557a543e0a9be8f4ae36d573bae26fb85cba785d",
+      "edits": null,
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-2%"
+    }
+  ],
+  "subtitle_timing": "provider word boundaries, with 250 ms lead-in; not proportional character interpolation",
+  "live_capture_scenes": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_footage_changed": false,
+  "public_published": false
+}

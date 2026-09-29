@@ -1,0 +1,39 @@
+{
+  "runs": {
+    "v2-final-repair": {
+      "status": "COMPLETED",
+      "candidate_id": "fa127a991a589ebefc05b59427e3a8bf7e68f686cf6c86fabc4663598bfeb1c8",
+      "protected_files_match": 92,
+      "validation": "PASS"
+    },
+    "v2-final-large": {
+      "status": "COMPLETED",
+      "candidate_id": "d673674eead37cba0dc3ad90533923c29a5e60574a7863d3125ff0113d0e404c",
+      "protected_files_match": 92,
+      "validation": "PASS"
+    },
+    "v2-final-small": {
+      "status": "COMPLETED",
+      "candidate_id": "c6a7af8e630a1aeb366039cba13ccee293941b3d05e5be9dee873228b98fa2a7",
+      "protected_files_match": 92,
+      "validation": "PASS"
+    },
+    "v2-final-rule": {
+      "status": "COMPLETED",
+      "candidate_id": "6800591c26c5c78ac02eb1811d17ce82cc6783fbbefd190a0cc3cda012000654",
+      "protected_files_match": 92,
+      "validation": "PASS"
+    },
+    "v2-final-fail": {
+      "status": "FAILED",
+      "candidate_id": "b2bb8eff7c204f18b22fff67629d581ac23b70daa3fd2cf6908c56f71faa7e8a",
+      "protected_files_match": 92,
+      "validation": "FAIL"
+    }
+  },
+  "clean_cpu_reuse": true,
+  "gpu_cross_verification": true,
+  "persistent_batch_reuse": true,
+  "public_submission": false,
+  "history_note": "Pre-YAML-fix runs are development evidence, never the final candidate identities."
+}

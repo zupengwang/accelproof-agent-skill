@@ -1,0 +1,200 @@
+[
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "normal_aggregate",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_region_group",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "ttft_missing_success",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_failed_group",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 0,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "empty_input",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "minute_boundary",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_status",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_ttft_missing",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "large_integer_bucket",
+    "mode": "original_cpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "normal_aggregate",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_region_group",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "ttft_missing_success",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_failed_group",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 0,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "empty_input",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "minute_boundary",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_status",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_ttft_missing",
+    "mode": "original_cudf_pandas"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "large_integer_bucket",
+    "mode": "original_cudf_pandas"
+  }
+]

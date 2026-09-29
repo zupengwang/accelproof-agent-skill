@@ -1,0 +1,200 @@
+[
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "normal_aggregate",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_region_group",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "ttft_missing_success",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_failed_group",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 0,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "empty_input",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "minute_boundary",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_status",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_ttft_missing",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "large_integer_bucket",
+    "mode": "optimized_cpu_same_structure"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "normal_aggregate",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_region_group",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "ttft_missing_success",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_failed_group",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 0,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "empty_input",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 2,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "minute_boundary",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "null_status",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "all_ttft_missing",
+    "mode": "optimized_gpu"
+  },
+  {
+    "pass": true,
+    "diffs": [],
+    "diff_count": 0,
+    "rows": 1,
+    "full_table": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "case_id": "large_integer_bucket",
+    "mode": "optimized_gpu"
+  }
+]

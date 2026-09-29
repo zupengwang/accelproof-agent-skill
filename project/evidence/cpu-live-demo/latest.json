@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/venv/bin/python",
+    "-m",
+    "accelproof.workflow",
+    "run",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-v2-small.zip",
+    "--input",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/second.parquet",
+    "--output",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-v2/evidence/cpu-live-demo-final/1790608839294640000"
+  ],
+  "result": {
+    "operation": "run",
+    "selected_backend": "cpu",
+    "execution_profile": "one_shot",
+    "candidate_id": "c6a7af8e630a1aeb366039cba13ccee293941b3d05e5be9dee873228b98fa2a7",
+    "source_workflow_sha256": "97b95b80c3f207c3366af3fe921b74b30842775ae40768eaa895836b0a1e0dd8",
+    "rows": [
+      1000
+    ],
+    "input_sha256": [
+      "0e200c929a9e1cfb7362cffe17293827d19d16da0aea2752c44d7863f978bd83"
+    ],
+    "scope": "within measured row-count and batch-count envelope; performance is not guaranteed on a new distribution or machine",
+    "model_called": false,
+    "gpu_worker_called": false,
+    "metrics": {
+      "optimized_cpu_same_structure": {
+        "mode": "optimized_cpu_same_structure",
+        "warmup": null,
+        "samples": [
+          0.07036125002196059
+        ],
+        "max_rss_mib": 103.671875,
+        "output_sha256": [
+          "e70c5d9b5d5463eda63fe8d2b85fdcc7406c83a91c1f355f5e69a94b5ad4ebdc"
+        ],
+        "includes": [
+          "parquet read",
+          "transform",
+          "serialize",
+          "GPU synchronize when applicable"
+        ],
+        "pid": 46824,
+        "execution_profile": "one_shot",
+        "setup_seconds": 0.31795066699851304,
+        "batch_tasks": [],
+        "backend_imported": "pandas",
+        "read_strategy": "full",
+        "process_wall_seconds": 0.4521893329801969,
+        "observed_peak_rss_mib": 90.828125,
+        "sandbox": "trusted CPU workflow subprocess; no OS sandbox",
+        "median_seconds": 0.07036125002196059
+      }
+    },
+    "parity": null,
+    "total_seconds": 0.49836458300706,
+    "assurance": "manifest verifies content consistency, not publisher identity; accept trusted project packages only"
+  }
+}

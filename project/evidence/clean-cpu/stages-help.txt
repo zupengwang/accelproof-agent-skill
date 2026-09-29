@@ -1,0 +1,10 @@
+usage: stages.py [-h] {intake,migrate,validate,export} ...
+
+Distinct skill entry points. Export and revalidation never launch a model/GPU
+job.
+
+positional arguments:
+  {intake,migrate,validate,export}
+
+options:
+  -h, --help            show this help message and exit

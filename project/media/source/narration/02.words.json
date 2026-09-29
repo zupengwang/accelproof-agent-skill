@@ -1,0 +1,458 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1010000,
+    "duration": 2423330,
+    "text": "再"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3433750,
+    "duration": 1275410,
+    "text": "看"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 4836660,
+    "duration": 5357080,
+    "text": "性能"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 16071250,
+    "duration": 4719580,
+    "text": "五百万"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 20790830,
+    "duration": 1402910,
+    "text": "行"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 22321250,
+    "duration": 4464160,
+    "text": "数据"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31122500,
+    "duration": 2806250,
+    "text": "预热"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 33928750,
+    "duration": 1530410,
+    "text": "后"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 35459160,
+    "duration": 892910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 36607080,
+    "duration": 2550830,
+    "text": "同构"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 39285830,
+    "duration": 4336660,
+    "text": "对照"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 45918330,
+    "duration": 4974580,
+    "text": "GPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 50892910,
+    "duration": 892910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 51913330,
+    "duration": 2806250,
+    "text": "速度"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 54847080,
+    "duration": 3699160,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59566250,
+    "duration": 5484580,
+    "text": "CPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 65050830,
+    "duration": 1658330,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66964160,
+    "duration": 8545830,
+    "text": "十三点二六"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 75510000,
+    "duration": 2168330,
+    "text": "倍"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 83418330,
+    "duration": 2678750,
+    "text": "这个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 86224580,
+    "duration": 3061250,
+    "text": "数字"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 89540830,
+    "duration": 1530410,
+    "text": "很"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 91199160,
+    "duration": 6122500,
+    "text": "漂亮"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 101402910,
+    "duration": 1913330,
+    "text": "但"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 103316250,
+    "duration": 1020410,
+    "text": "只"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 104464160,
+    "duration": 1275410,
+    "text": "做"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 105740000,
+    "duration": 1913330,
+    "text": "一次"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 107780410,
+    "duration": 2678750,
+    "text": "任务"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 110459160,
+    "duration": 1913330,
+    "text": "呢"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 117984580,
+    "duration": 1785830,
+    "text": "把"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 119897910,
+    "duration": 2678750,
+    "text": "启动"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 122704160,
+    "duration": 3443750,
+    "text": "时间"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 126402910,
+    "duration": 1147910,
+    "text": "也"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 127550830,
+    "duration": 1658330,
+    "text": "算"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 129336660,
+    "duration": 4464160,
+    "text": "进去"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 136862080,
+    "duration": 5357080,
+    "text": "CPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 142347080,
+    "duration": 2168330,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 144642910,
+    "duration": 5867080,
+    "text": "一点八七"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 150510000,
+    "duration": 2168330,
+    "text": "秒"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 154719580,
+    "duration": 5612080,
+    "text": "GPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 161352080,
+    "duration": 2678750,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 164158330,
+    "duration": 7525410,
+    "text": "十八点八三"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 171683750,
+    "duration": 2168330,
+    "text": "秒"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 179591660,
+    "duration": 5867500,
+    "text": "换成"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 185714160,
+    "duration": 1147910,
+    "text": "同"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 186990000,
+    "duration": 1658330,
+    "text": "一个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 188775410,
+    "duration": 5357080,
+    "text": "进程"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 195152910,
+    "duration": 3954160,
+    "text": "连续"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 199234580,
+    "duration": 2806250,
+    "text": "处理"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 202295830,
+    "duration": 3571250,
+    "text": "两份"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 205995000,
+    "duration": 3826660,
+    "text": "数据"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 213137910,
+    "duration": 2040830,
+    "text": "这"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 215178750,
+    "duration": 1402910,
+    "text": "次"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 216836660,
+    "duration": 2933750,
+    "text": "仍然"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 219770410,
+    "duration": 3443750,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 224234580,
+    "duration": 5612080,
+    "text": "CPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 229974580,
+    "duration": 1913330,
+    "text": "更"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 231887910,
+    "duration": 4464160,
+    "text": "合适"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 242091660,
+    "duration": 5357080,
+    "text": "所以"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 252040830,
+    "duration": 3188750,
+    "text": "界面"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 255357080,
+    "duration": 1147910,
+    "text": "把"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 256760000,
+    "duration": 3188750,
+    "text": "测量"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 260076660,
+    "duration": 4081660,
+    "text": "结果"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 264413330,
+    "duration": 1020410,
+    "text": "和"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 265561250,
+    "duration": 3316250,
+    "text": "后端"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 269005000,
+    "duration": 2295830,
+    "text": "建议"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 271428750,
+    "duration": 4719580,
+    "text": "分开"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 280102080,
+    "duration": 1275410,
+    "text": "也"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 281377500,
+    "duration": 1020410,
+    "text": "让"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 282397910,
+    "duration": 637910,
+    "text": "你"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 283163330,
+    "duration": 5357080,
+    "text": "看清"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 289540830,
+    "duration": 3954160,
+    "text": "不同"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 293622500,
+    "duration": 2933750,
+    "text": "运行"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 296683750,
+    "duration": 2933750,
+    "text": "方式"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 299617500,
+    "duration": 637910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 300382500,
+    "duration": 3954160,
+    "text": "成本"
+  }
+]

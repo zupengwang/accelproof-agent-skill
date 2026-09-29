@@ -1,0 +1,10 @@
+{
+  "browser": "Chromium real browser, read-only saved API payloads",
+  "runs": 5,
+  "skills": 5,
+  "attempt_switch_pass": true,
+  "failure_10_vs_5_pass": true,
+  "profile_switch_pass": true,
+  "start_disabled": true,
+  "export_disabled": true
+}

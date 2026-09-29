@@ -1,0 +1,29 @@
+{
+  "optimized_cpu_same_structure": {
+    "mode": "optimized_cpu_same_structure",
+    "warmup": null,
+    "samples": [
+      0.07036125002196059
+    ],
+    "max_rss_mib": 103.671875,
+    "output_sha256": [
+      "e70c5d9b5d5463eda63fe8d2b85fdcc7406c83a91c1f355f5e69a94b5ad4ebdc"
+    ],
+    "includes": [
+      "parquet read",
+      "transform",
+      "serialize",
+      "GPU synchronize when applicable"
+    ],
+    "pid": 46824,
+    "execution_profile": "one_shot",
+    "setup_seconds": 0.31795066699851304,
+    "batch_tasks": [],
+    "backend_imported": "pandas",
+    "read_strategy": "full",
+    "process_wall_seconds": 0.4521893329801969,
+    "observed_peak_rss_mib": 90.828125,
+    "sandbox": "trusted CPU workflow subprocess; no OS sandbox",
+    "median_seconds": 0.07036125002196059
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "publish-validated-workflow",
+  "author": "AccelProof project",
+  "type": "custom",
+  "not_official_nvidia": true,
+  "entrypoint": "SKILL.md",
+  "evaluation": "evidence/agent-eval/results.json"
+}

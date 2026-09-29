@@ -1,0 +1,655 @@
+{
+  "version": 2,
+  "id": "v2-final-large",
+  "scenario": "large",
+  "execution_profile": "one_shot",
+  "planner": "model",
+  "status": "COMPLETED",
+  "finalized": true,
+  "validation_status": "PASS",
+  "started": "2026-09-28T15:18:03Z",
+  "events": [
+    {
+      "run_id": "v2-final-large",
+      "sequence": 1,
+      "timestamp": "2026-09-28T15:18:04Z",
+      "stage": "intake",
+      "event_type": "progress",
+      "message": "读取数据规模、冻结契约与运行模式；两个不同种子的输入",
+      "skill": "log-pipeline-intake",
+      "skill_sha256": "e781ac7e0933a4a7bb3ff95380ee7fe596a364613a34bdfac32abbfa40fdebe2"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 2,
+      "timestamp": "2026-09-28T15:18:04Z",
+      "stage": "generate",
+      "event_type": "progress",
+      "message": "模型按阶段加载技能，选择读取策略和下一项运行模式实验",
+      "skill": "gpu-pipeline-migrate",
+      "skill_sha256": "bebac619691aaaa28b7d23c500de6edd5203a00079359aea9e824f03407bedac"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 3,
+      "timestamp": "2026-09-28T15:18:17Z",
+      "stage": "snapshot",
+      "event_type": "progress",
+      "message": "候选 attempt 0 已冻结：策略、模板、判卷规则、输入与环境绑定"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 4,
+      "timestamp": "2026-09-28T15:18:33Z",
+      "stage": "benchmark",
+      "event_type": "progress",
+      "message": "预热后四配置测量：original_cpu"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 5,
+      "timestamp": "2026-09-28T15:18:47Z",
+      "stage": "benchmark",
+      "event_type": "progress",
+      "message": "预热后四配置测量：original_cudf_pandas"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 6,
+      "timestamp": "2026-09-28T15:19:07Z",
+      "stage": "benchmark",
+      "event_type": "progress",
+      "message": "预热后四配置测量：optimized_cpu_same_structure"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 7,
+      "timestamp": "2026-09-28T15:19:12Z",
+      "stage": "benchmark",
+      "event_type": "progress",
+      "message": "预热后四配置测量：optimized_gpu"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 8,
+      "timestamp": "2026-09-28T15:19:31Z",
+      "stage": "deployment",
+      "event_type": "progress",
+      "message": "测量实际部署模式：one_shot"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 9,
+      "timestamp": "2026-09-28T15:19:52Z",
+      "stage": "deployment",
+      "event_type": "progress",
+      "message": "测量实际部署模式：persistent_batch"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 10,
+      "timestamp": "2026-09-28T15:20:14Z",
+      "stage": "profile",
+      "event_type": "progress",
+      "message": "正在独立 profiler 与最终哈希核验；尚未提交终态"
+    },
+    {
+      "run_id": "v2-final-large",
+      "sequence": 11,
+      "timestamp": "2026-09-28T15:20:35Z",
+      "stage": "decision",
+      "event_type": "progress",
+      "message": "结果一致；部署推荐按所选模式实测，预热收益单独展示",
+      "skill": "publish-validated-workflow",
+      "skill_sha256": "1ea42711c79264c7aed9953095b1c843f326d79af8c25f66972ae986665d7078"
+    }
+  ],
+  "bench": {
+    "original_cpu": {
+      "mode": "original_cpu",
+      "warmup": 3.15278379782103,
+      "samples": [
+        4.276395342079923,
+        3.066776428837329,
+        2.711655338993296
+      ],
+      "max_rss_mib": 1670.7578125,
+      "output_sha256": [
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 21312,
+      "execution_profile": "warm_benchmark",
+      "setup_seconds": 0.29534249822609127,
+      "batch_tasks": [],
+      "backend_imported": "pandas",
+      "read_strategy": "full",
+      "process_wall_seconds": 13.746689993189648,
+      "observed_peak_rss_mib": 1641.4140625,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 3.066776428837329
+    },
+    "original_cudf_pandas": {
+      "mode": "original_cudf_pandas",
+      "warmup": 17.140628246124834,
+      "samples": [
+        0.16460370691493154,
+        0.16369475610554218,
+        0.16216458193957806
+      ],
+      "max_rss_mib": 1178.22265625,
+      "output_sha256": [
+        "52d20055ee3f84ae841f8477c257e80daf046e217a2f1790f9f17cf0fdca716d",
+        "996167ad8edda6483fa88b2a8d8906f853654d1d5082d35e4645a85ef00dd42b",
+        "cf2f98ac78deb0260ef80ba4e1a8e1c1ee52749fe995780c8eb0b02c96af17a1",
+        "e62f93bef3587d257d485f6c780414debb89e707dc0bbdbb7131bb798a2ca6e9"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 21389,
+      "execution_profile": "warm_benchmark",
+      "setup_seconds": 0.07278398307971656,
+      "batch_tasks": [],
+      "backend_imported": "cudf",
+      "read_strategy": "full",
+      "process_wall_seconds": 19.949849051889032,
+      "observed_peak_rss_mib": 1246.89453125,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 0.16369475610554218
+    },
+    "optimized_cpu_same_structure": {
+      "mode": "optimized_cpu_same_structure",
+      "warmup": 1.1584269809536636,
+      "samples": [
+        1.1153639960102737,
+        1.0287986600305885,
+        1.0765446820296347
+      ],
+      "max_rss_mib": 1302.91015625,
+      "output_sha256": [
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7",
+        "4fe9805e0d5b0ce0dc8d2cf08c0498ef6fa3f5bbd8edaeb5f2adc9c63e5f1aa7"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 21585,
+      "execution_profile": "warm_benchmark",
+      "setup_seconds": 0.29749945108778775,
+      "batch_tasks": [],
+      "backend_imported": "pandas",
+      "read_strategy": "full",
+      "process_wall_seconds": 4.973266767105088,
+      "observed_peak_rss_mib": 1307.10546875,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 1.0765446820296347
+    },
+    "optimized_gpu": {
+      "mode": "optimized_gpu",
+      "warmup": 16.83890307880938,
+      "samples": [
+        0.08273317501880229,
+        0.08116549905389547,
+        0.08016277686692774
+      ],
+      "max_rss_mib": 1122.69921875,
+      "output_sha256": [
+        "a42b2bbd379f07f3094946abfb2d64ebeac4f6309af2702851293d2db8665552",
+        "d95588bae1beec9046d43a77169b8362c3709f78cfe064701c944926fad09abf",
+        "fe2b6ddb97a93d276467f541f78a8ca4ebb02a28ddc77d2c5fa6d6f301fb02ff",
+        "cc2c4af1541c7ac1d1ea6ead20c67b8a2d7abbc1550bcbbaf7b2ca4f62997938"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 21667,
+      "execution_profile": "warm_benchmark",
+      "setup_seconds": 1.014173317933455,
+      "batch_tasks": [],
+      "backend_imported": "cudf",
+      "read_strategy": "full",
+      "process_wall_seconds": 19.028955499874428,
+      "observed_peak_rss_mib": 1125.28515625,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 0.08116549905389547
+    }
+  },
+  "parity": {
+    "pass": true,
+    "passed": 18,
+    "total": 18,
+    "checks": [
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "normal_aggregate",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 2,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "null_region_group",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "ttft_missing_success",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "all_failed_group",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 0,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "empty_input",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 2,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "minute_boundary",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "null_status",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "all_ttft_missing",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "large_integer_bucket",
+        "mode": "optimized_cpu_same_structure"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "normal_aggregate",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 2,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "null_region_group",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "ttft_missing_success",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "all_failed_group",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 0,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "empty_input",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 2,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "minute_boundary",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "null_status",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "all_ttft_missing",
+        "mode": "optimized_gpu"
+      },
+      {
+        "pass": true,
+        "diffs": [],
+        "diff_count": 0,
+        "rows": 1,
+        "full_table": true,
+        "rtol": 1e-09,
+        "atol": 1e-08,
+        "case_id": "large_integer_bucket",
+        "mode": "optimized_gpu"
+      }
+    ],
+    "full_pass": true
+  },
+  "deployment": {
+    "one_shot": {
+      "status": "MEASURED",
+      "recommended_backend": "cpu",
+      "cpu_total_seconds": 1.869946300983429,
+      "gpu_total_seconds": 18.831118515925482,
+      "speedup": 0.09930086199616953,
+      "scope": {
+        "rows": [
+          5000000
+        ],
+        "distinct_inputs": 1,
+        "input_sha256": [
+          "634e0d56483dcaf90e38c2e5a85537142f90b7b3579d00f273716cc37a207d22"
+        ]
+      },
+      "observations_per_backend": 1,
+      "claim": "one observed fresh process per backend; filesystem cache not flushed; no statistical generalization"
+    },
+    "persistent_batch": {
+      "status": "MEASURED",
+      "recommended_backend": "cpu",
+      "cpu_total_seconds": 3.0247003899421543,
+      "gpu_total_seconds": 18.97886346303858,
+      "speedup": 0.15937205069380322,
+      "scope": {
+        "rows": [
+          5000000,
+          5000000
+        ],
+        "distinct_inputs": 2,
+        "input_sha256": [
+          "634e0d56483dcaf90e38c2e5a85537142f90b7b3579d00f273716cc37a207d22",
+          "f0f92441b1876ec62f3ab07b221a979a4f5ecedee804b0d2f5fbe5660bd0c681"
+        ]
+      },
+      "observations_per_backend": 1,
+      "claim": "one observed fresh process per backend; filesystem cache not flushed; no statistical generalization"
+    }
+  },
+  "measurement": {
+    "warm_speedup": 13.26357497432238,
+    "warm_verdict": "VERIFIED_GAIN",
+    "warm_scope": {
+      "rows": 5000000,
+      "warmups": 1,
+      "measurements": 3
+    }
+  },
+  "rows": 5000000,
+  "seed": 20260928,
+  "model": "Qwen3-VL-8B-Instruct",
+  "hardware": "RTX 4090",
+  "publication": "local_only",
+  "repairs": 0,
+  "fault_injection": false,
+  "contract_sha256": "0d8f19a8e6ce6160be4a37aaa454d8b8be62f5486cb6023736de85ae30f4c2d7",
+  "input_sha256": "634e0d56483dcaf90e38c2e5a85537142f90b7b3579d00f273716cc37a207d22",
+  "input_bytes": 117899026,
+  "model_policy": {
+    "action": "migrate",
+    "preserve_null_keys": true,
+    "ttft_policy": "exclude_missing",
+    "backend": "cpu",
+    "read_strategy": "full",
+    "next_experiment": "one_shot"
+  },
+  "candidate_policy": {
+    "action": "migrate",
+    "preserve_null_keys": true,
+    "ttft_policy": "exclude_missing",
+    "backend": "cpu",
+    "read_strategy": "full",
+    "next_experiment": "one_shot"
+  },
+  "candidate_id": "d673674eead37cba0dc3ad90533923c29a5e60574a7863d3125ff0113d0e404c",
+  "attempt": 0,
+  "full_parity": {
+    "original_cpu": {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 915,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    },
+    "original_cudf_pandas": {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 915,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    },
+    "optimized_cpu_same_structure": {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 915,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    },
+    "optimized_gpu": {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 915,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    }
+  },
+  "sample_parity_pass": true,
+  "speedup": 13.26357497432238,
+  "overall_speedup": 37.78423670876378,
+  "experiment_order": [
+    "one_shot",
+    "persistent_batch"
+  ],
+  "protected_unchanged": true,
+  "elapsed_seconds": 151.1959216517862,
+  "validation_record_sha256": "92353b03cd6081f48166551cb21abb534528f7140a5d316fa9425646c8bb54f2",
+  "finished": "2026-09-28T15:20:35Z",
+  "artifact_files": [
+    "controller.json",
+    "environment.json",
+    "initial-request.json",
+    "initial-model.log",
+    "initial-response.json",
+    "candidate-policy.json",
+    "baseline-parity.json",
+    "candidate-0-parity.json",
+    "full-parity.json",
+    "sample-parity.json",
+    "one_shot-measurements.json",
+    "batch-inputs.json",
+    "persistent_batch-measurements.json",
+    "validation-record.json",
+    "run.json",
+    "attempts/0/policy.json",
+    "attempts/0/environment.json",
+    "attempts/0/snapshot.json",
+    "attempts/0/source/specs/dependency-wheels.json",
+    "attempts/0/source/specs/agent-evals.json",
+    "attempts/0/source/specs/agent-evals-v2.json",
+    "attempts/0/source/specs/oracles.json",
+    "attempts/0/source/skills/log-pipeline-intake/evals.json",
+    "attempts/0/source/skills/log-pipeline-intake/skill_card.json",
+    "attempts/0/source/skills/dataframe-parity-benchmark/evals.json",
+    "attempts/0/source/skills/dataframe-parity-benchmark/skill_card.json",
+    "attempts/0/source/skills/publish-validated-workflow/evals.json",
+    "attempts/0/source/skills/publish-validated-workflow/skill_card.json",
+    "attempts/0/source/skills/gpu-pipeline-migrate/evals.json",
+    "attempts/0/source/skills/gpu-pipeline-migrate/skill_card.json",
+    "attempts/0/source/vendor/nvidia/PROVENANCE.json",
+    "attempts/0/source/vendor/nvidia/accelerated-computing-cudf/evals/evals.json",
+    "workers/profile/sandbox.json",
+    "workers/profile/stdout.log",
+    "workers/profile/stderr.log",
+    "workers/profile/metrics.json",
+    "workers/baseline/original_cpu/sandbox.json",
+    "workers/baseline/original_cpu/stdout.log",
+    "workers/baseline/original_cpu/stderr.log",
+    "workers/baseline/original_cpu/metrics.json",
+    "workers/baseline/original_cudf_pandas/sandbox.json",
+    "workers/baseline/original_cudf_pandas/stdout.log",
+    "workers/baseline/original_cudf_pandas/stderr.log",
+    "workers/baseline/original_cudf_pandas/metrics.json",
+    "workers/candidate-0/optimized_cpu_same_structure/sandbox.json",
+    "workers/candidate-0/optimized_cpu_same_structure/stdout.log",
+    "workers/candidate-0/optimized_cpu_same_structure/stderr.log",
+    "workers/candidate-0/optimized_cpu_same_structure/metrics.json",
+    "workers/candidate-0/optimized_gpu/sandbox.json",
+    "workers/candidate-0/optimized_gpu/stdout.log",
+    "workers/candidate-0/optimized_gpu/stderr.log",
+    "workers/candidate-0/optimized_gpu/metrics.json",
+    "workers/timing/original_cpu/sandbox.json",
+    "workers/timing/original_cpu/stdout.log",
+    "workers/timing/original_cpu/stderr.log",
+    "workers/timing/original_cpu/metrics.json",
+    "workers/timing/original_cudf_pandas/sandbox.json",
+    "workers/timing/original_cudf_pandas/stdout.log",
+    "workers/timing/original_cudf_pandas/stderr.log",
+    "workers/timing/original_cudf_pandas/metrics.json",
+    "workers/timing/optimized_cpu_same_structure/sandbox.json",
+    "workers/timing/optimized_cpu_same_structure/stdout.log",
+    "workers/timing/optimized_cpu_same_structure/stderr.log",
+    "workers/timing/optimized_cpu_same_structure/metrics.json",
+    "workers/timing/optimized_gpu/sandbox.json",
+    "workers/timing/optimized_gpu/stdout.log",
+    "workers/timing/optimized_gpu/stderr.log",
+    "workers/timing/optimized_gpu/metrics.json",
+    "workers/one_shot/optimized_cpu_same_structure/sandbox.json",
+    "workers/one_shot/optimized_cpu_same_structure/stdout.log",
+    "workers/one_shot/optimized_cpu_same_structure/stderr.log",
+    "workers/one_shot/optimized_cpu_same_structure/metrics.json",
+    "workers/one_shot/optimized_gpu/sandbox.json",
+    "workers/one_shot/optimized_gpu/stdout.log",
+    "workers/one_shot/optimized_gpu/stderr.log",
+    "workers/one_shot/optimized_gpu/metrics.json",
+    "workers/persistent_batch/optimized_cpu_same_structure/sandbox.json",
+    "workers/persistent_batch/optimized_cpu_same_structure/stdout.log",
+    "workers/persistent_batch/optimized_cpu_same_structure/stderr.log",
+    "workers/persistent_batch/optimized_cpu_same_structure/metrics.json",
+    "workers/persistent_batch/optimized_gpu/sandbox.json",
+    "workers/persistent_batch/optimized_gpu/stdout.log",
+    "workers/persistent_batch/optimized_gpu/stderr.log",
+    "workers/persistent_batch/optimized_gpu/metrics.json"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "optimized_gpu",
+  "warmup": null,
+  "samples": [
+    16.7086920440197
+  ],
+  "max_rss_mib": 1123.60546875,
+  "output_sha256": [
+    null
+  ],
+  "includes": [
+    "parquet read",
+    "transform",
+    "serialize",
+    "GPU synchronize when applicable"
+  ],
+  "pid": 23289,
+  "execution_profile": "persistent_batch",
+  "setup_seconds": 1.0077860848978162,
+  "batch_tasks": [
+    {
+      "input": "/home/wangzupeng/agent-skills/accelproof-20260928/state/datasets/requests-1000000-20260928.parquet",
+      "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-repair/workers/persistent_batch/optimized_gpu/batch-0.parquet",
+      "seconds": 16.613151917932555,
+      "pid": 23289,
+      "input_sha256": "5eeafcc3b973a6c8a0b6aa96a4258c496e3411de1aa5afe1494268748dbed21d"
+    },
+    {
+      "input": "/home/wangzupeng/agent-skills/accelproof-20260928/state/reused-workflow/replay/second.parquet",
+      "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-repair/workers/persistent_batch/optimized_gpu/batch-1.parquet",
+      "seconds": 0.05299318302422762,
+      "pid": 23289,
+      "input_sha256": "14d675093ccb2ce74e5faf993203901670a10ed96c094d0e11960686db6fead9"
+    }
+  ],
+  "backend_imported": "cudf",
+  "read_strategy": "full",
+  "process_wall_seconds": 18.653390229912475,
+  "observed_peak_rss_mib": 1125.5703125,
+  "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+  "median_seconds": 16.7086920440197
+}

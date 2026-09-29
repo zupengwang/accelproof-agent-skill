@@ -1,0 +1,8 @@
+{
+  "method": "Real Chromium with explicitly simulated FINALIZING/API responses; not a GPU experiment",
+  "scenario_disabled_during_active": true,
+  "no_export_during_finalizing": true,
+  "history_keeps_active_banner": true,
+  "cancel_targets_active_not_viewed_run": true,
+  "source": "web/app.js"
+}

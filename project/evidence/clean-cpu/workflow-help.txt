@@ -1,0 +1,16 @@
+usage: workflow.py [-h] --input INPUT [INPUT ...] --output OUTPUT
+                   [--linux-isolation]
+                   {run,verify} archive
+
+Run an already validated workflow, or explicitly cross-verify CPU/GPU. No
+model calls.
+
+positional arguments:
+  {run,verify}
+  archive
+
+options:
+  -h, --help            show this help message and exit
+  --input INPUT [INPUT ...]
+  --output OUTPUT
+  --linux-isolation

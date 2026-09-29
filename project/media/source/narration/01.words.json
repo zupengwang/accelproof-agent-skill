@@ -1,0 +1,452 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1010000,
+    "duration": 2933750,
+    "text": "先"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3943750,
+    "duration": 1402910,
+    "text": "看"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 5474580,
+    "duration": 1658330,
+    "text": "这个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7387910,
+    "duration": 2295830,
+    "text": "容易"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 9811250,
+    "duration": 3188750,
+    "text": "忽略"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 13000000,
+    "duration": 765410,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 13892910,
+    "duration": 5867500,
+    "text": "细节"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 25637910,
+    "duration": 2423330,
+    "text": "两"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 28061250,
+    "duration": 765410,
+    "text": "个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 29081660,
+    "duration": 3571250,
+    "text": "成功"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32780410,
+    "duration": 6122500,
+    "text": "请求"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 41836660,
+    "duration": 2040830,
+    "text": "一个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 44132500,
+    "duration": 3316250,
+    "text": "延迟"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 47576660,
+    "duration": 1785410,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49362080,
+    "duration": 4209160,
+    "text": "十"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55484580,
+    "duration": 2423330,
+    "text": "另"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57908330,
+    "duration": 1785830,
+    "text": "一个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59949160,
+    "duration": 2168330,
+    "text": "没有"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 62245000,
+    "duration": 3699160,
+    "text": "记录"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71683750,
+    "duration": 2295830,
+    "text": "按"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 74234580,
+    "duration": 3443750,
+    "text": "统计"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 77806250,
+    "duration": 5612080,
+    "text": "规则"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 85714160,
+    "duration": 6760000,
+    "text": "平均值"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 92729580,
+    "duration": 2550830,
+    "text": "应该"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 95280410,
+    "duration": 1658330,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 97066250,
+    "duration": 3699160,
+    "text": "十"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 106632500,
+    "duration": 1913330,
+    "text": "可"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 108673330,
+    "duration": 2168330,
+    "text": "如果"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 111097080,
+    "duration": 5357080,
+    "text": "顺手"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 116581660,
+    "duration": 1147910,
+    "text": "把"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 117857080,
+    "duration": 3443750,
+    "text": "空值"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 121556250,
+    "duration": 3061250,
+    "text": "补成"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 124617500,
+    "duration": 2933750,
+    "text": "零"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 130612080,
+    "duration": 4081660,
+    "text": "结果"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 134949160,
+    "duration": 892910,
+    "text": "就"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 135969580,
+    "duration": 2678330,
+    "text": "变成"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 138647910,
+    "duration": 765410,
+    "text": "了"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 139540830,
+    "duration": 2040830,
+    "text": "五"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 147449160,
+    "duration": 1785830,
+    "text": "点"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 149362080,
+    "duration": 3188750,
+    "text": "开失"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 152550830,
+    "duration": 5102080,
+    "text": "败项"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 161097080,
+    "duration": 4081660,
+    "text": "差异"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 165433750,
+    "duration": 1020410,
+    "text": "就"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 166454160,
+    "duration": 892910,
+    "text": "在"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 167474580,
+    "duration": 3188750,
+    "text": "这里"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 176530410,
+    "duration": 2168330,
+    "text": "切"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 178699160,
+    "duration": 1402910,
+    "text": "到"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 180357080,
+    "duration": 3316250,
+    "text": "修复"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 183673330,
+    "duration": 1147910,
+    "text": "后"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 184821250,
+    "duration": 637910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 185586660,
+    "duration": 4719580,
+    "text": "版本"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 192602080,
+    "duration": 1785830,
+    "text": "能"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 194387910,
+    "duration": 2550830,
+    "text": "看到"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 197066250,
+    "duration": 5484580,
+    "text": "策略"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 202806250,
+    "duration": 3061250,
+    "text": "改成"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 205867500,
+    "duration": 765410,
+    "text": "了"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 206887910,
+    "duration": 3571250,
+    "text": "排除"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 210586660,
+    "duration": 6760000,
+    "text": "缺失值"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 219642910,
+    "duration": 4591660,
+    "text": "检查"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 224362080,
+    "duration": 892910,
+    "text": "也"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 225382500,
+    "duration": 3316250,
+    "text": "通过"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 228699160,
+    "duration": 1530410,
+    "text": "了"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 235969580,
+    "duration": 2550830,
+    "text": "这里"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 238520410,
+    "duration": 892910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 239540830,
+    "duration": 4209160,
+    "text": "故障"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 244005000,
+    "duration": 1402910,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 245535830,
+    "duration": 3316250,
+    "text": "主动"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 248979580,
+    "duration": 2806250,
+    "text": "注入"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 251785830,
+    "duration": 2933750,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 257525410,
+    "duration": 4081660,
+    "text": "修复"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 261607080,
+    "duration": 1275410,
+    "text": "前"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 262882500,
+    "duration": 765410,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 263775410,
+    "duration": 5484580,
+    "text": "记录会"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 270280410,
+    "duration": 3188750,
+    "text": "一直"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 273597080,
+    "duration": 4719580,
+    "text": "保留"
+  }
+]

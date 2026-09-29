@@ -1,0 +1,17 @@
+{
+  "pid": 23882,
+  "created": 1790609020.19,
+  "cmdline": [
+    ".venv/bin/python",
+    "-m",
+    "accelproof.harness",
+    "--scenario",
+    "small",
+    "--planner",
+    "rule",
+    "--run-id",
+    "v2-final-rule"
+  ],
+  "pgid": 23882,
+  "boot_id": "08c4dde7-dbcb-4976-8f49-a234f2d9989a"
+}

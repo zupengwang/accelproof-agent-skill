@@ -1,0 +1,32 @@
+{
+  "mode": "original_cpu",
+  "warmup": 0.0745523520745337,
+  "samples": [
+    0.013223681133240461,
+    0.014329357072710991,
+    0.015702519100159407
+  ],
+  "max_rss_mib": 115.5,
+  "output_sha256": [
+    "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13",
+    "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13",
+    "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13",
+    "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13"
+  ],
+  "includes": [
+    "parquet read",
+    "transform",
+    "serialize",
+    "GPU synchronize when applicable"
+  ],
+  "pid": 20371,
+  "execution_profile": "warm_benchmark",
+  "setup_seconds": 0.3348146821372211,
+  "batch_tasks": [],
+  "backend_imported": "pandas",
+  "read_strategy": "full",
+  "process_wall_seconds": 0.6282610290218145,
+  "observed_peak_rss_mib": 119.0546875,
+  "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+  "median_seconds": 0.014329357072710991
+}

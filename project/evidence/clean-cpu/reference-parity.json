@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "diffs": [],
+  "diff_count": 0,
+  "rows": 624,
+  "full_table": true,
+  "rtol": 1e-09,
+  "atol": 1e-08,
+  "reference": "original pandas template from the exact final workflow",
+  "input_sha256": "0e200c929a9e1cfb7362cffe17293827d19d16da0aea2752c44d7863f978bd83",
+  "nvidia_smi_sentinel_untouched": true
+}

@@ -1,0 +1,27 @@
+{
+  "mode": "optimized_cpu_same_structure",
+  "warmup": null,
+  "samples": [
+    0.04148723999969661
+  ],
+  "max_rss_mib": 116.0,
+  "output_sha256": [
+    "13f6309b68118f82f906556eb7ae9254ea5e9bbf9b1999605a80a9d4d2d33a13"
+  ],
+  "includes": [
+    "parquet read",
+    "transform",
+    "serialize",
+    "GPU synchronize when applicable"
+  ],
+  "pid": 24294,
+  "execution_profile": "one_shot",
+  "setup_seconds": 0.34181395801715553,
+  "batch_tasks": [],
+  "backend_imported": "pandas",
+  "read_strategy": "projected",
+  "process_wall_seconds": 0.6276843149680644,
+  "observed_peak_rss_mib": 117.75,
+  "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+  "median_seconds": 0.04148723999969661
+}

@@ -1,0 +1,29 @@
+{
+  "dirs": [
+    "/tmp/accelproof-workflow-3eu64tvw",
+    "/tmp/accelproof-workflow-3eu64tvw/accelproof"
+  ],
+  "read": [
+    "/usr",
+    "/lib",
+    "/lib64",
+    "/proc",
+    "/sys",
+    "/etc/ld.so.cache",
+    "/etc/localtime",
+    "/etc/os-release",
+    "/home/wangzupeng/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu",
+    "/tmp/accelproof-workflow-3eu64tvw/.venv",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/.venv",
+    "/home/wangzupeng/competitions/aic-grounding-20260916/.venv/lib/python3.12/site-packages/nvidia/cu13",
+    "/tmp/accelproof-workflow-3eu64tvw/accelproof/__init__.py",
+    "/tmp/accelproof-workflow-3eu64tvw/accelproof/worker.py",
+    "/tmp/accelproof-workflow-3eu64tvw/accelproof/pipeline.py",
+    "/tmp/accelproof-workflow-3eu64tvw/accelproof/common.py",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/datasets/requests-5000000-20260929.parquet",
+    "/tmp/accelproof-workflow-3eu64tvw/workflow/policy.json"
+  ],
+  "write": [
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-gpu-final/original_cpu"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "action": "migrate",
+  "preserve_null_keys": true,
+  "ttft_policy": "fill_zero",
+  "backend": "cpu",
+  "read_strategy": "full",
+  "next_experiment": "one_shot"
+}

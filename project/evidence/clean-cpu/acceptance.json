@@ -1,0 +1,11 @@
+{
+  "fresh_venv": true,
+  "pip_no_cache": true,
+  "cudf_absent": true,
+  "model_weights_absent": true,
+  "server_import": true,
+  "workflow_help": true,
+  "stages_help": true,
+  "nvidia_smi_sentinel_untouched": true,
+  "actual_cpu_run_passed": true
+}

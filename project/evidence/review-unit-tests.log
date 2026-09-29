@@ -1,0 +1,50 @@
+/home/wangzupeng/agent-skills/accelproof-review-20260928/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_api_restart_can_cancel_persisted_identity (test_api_review.APIReview.test_api_restart_can_cancel_persisted_identity) ... ok
+test_finalizing_export_stays_blocked (test_api_review.APIReview.test_finalizing_export_stays_blocked) ... ok
+test_sse_waits_for_finalizer_and_delivers_failure (test_api_review.APIReview.test_sse_waits_for_finalizer_and_delivers_failure) ... ok
+test_startup_orphan_not_infinite_running (test_api_review.APIReview.test_startup_orphan_not_infinite_running) ... ok
+test_closed_schema (test_core.Checks.test_closed_schema) ... ok
+test_decisions (test_core.Checks.test_decisions) ... ok
+test_dtype_rejected (test_core.Checks.test_dtype_rejected) ... ok
+test_duplicate_keys (test_core.Checks.test_duplicate_keys) ... ok
+test_empty_schema (test_core.Checks.test_empty_schema) ... ok
+test_export_gate (test_core.Checks.test_export_gate) ... ok
+test_int_exact (test_core.Checks.test_int_exact) ... ok
+test_large_integer_oracle (test_core.Checks.test_large_integer_oracle) ... ok
+test_lost_key_rejected (test_core.Checks.test_lost_key_rejected) ... ok
+test_nan_is_not_null (test_core.Checks.test_nan_is_not_null) ... ok
+test_null_mask_rejected (test_core.Checks.test_null_mask_rejected) ... ok
+test_zero_fill_rejected (test_core.Checks.test_zero_fill_rejected) ... ok
+test_changed_contract_rejected (test_review.BoundCandidate.test_changed_contract_rejected) ... ok
+test_changed_judge_rejected (test_review.BoundCandidate.test_changed_judge_rejected) ... ok
+test_changed_policy_rejected (test_review.BoundCandidate.test_changed_policy_rejected) ... ok
+test_changed_template_rejected (test_review.BoundCandidate.test_changed_template_rejected) ... ok
+test_cpu_run_without_gpu_tools (test_review.BoundCandidate.test_cpu_run_without_gpu_tools) ... ok
+test_deployment_edit_rejected (test_review.BoundCandidate.test_deployment_edit_rejected) ... ok
+test_export_skill_does_not_call_harness_run (test_review.BoundCandidate.test_export_skill_does_not_call_harness_run) ... ok
+test_extra_even_if_added_to_manifest_rejected (test_review.BoundCandidate.test_extra_even_if_added_to_manifest_rejected) ... ok
+test_extra_file_rejected (test_review.BoundCandidate.test_extra_file_rejected) ... ok
+test_finalizing_not_exportable (test_review.BoundCandidate.test_finalizing_not_exportable) ... ok
+test_no_profile_measurement_rejected (test_review.BoundCandidate.test_no_profile_measurement_rejected) ... ok
+test_original_exports_and_binds (test_review.BoundCandidate.test_original_exports_and_binds) ... ok
+test_requires_approval (test_review.BoundCandidate.test_requires_approval) ... ok
+test_scale_change_cannot_preserve_gpu_recommendation (test_review.BoundCandidate.test_scale_change_cannot_preserve_gpu_recommendation) ... ok
+test_snapshot_edit_rejected (test_review.BoundCandidate.test_snapshot_edit_rejected) ... ok
+test_stale_directory_rejected (test_review.BoundCandidate.test_stale_directory_rejected) ... ok
+test_symlink_rejected (test_review.BoundCandidate.test_symlink_rejected) ... ok
+test_traversal_rejected (test_review.BoundCandidate.test_traversal_rejected) ... ok
+test_two_archives_fresh_extractions (test_review.BoundCandidate.test_two_archives_fresh_extractions) ... ok
+test_unfinalized_rejected (test_review.BoundCandidate.test_unfinalized_rejected) ... ok
+test_failed_finalizer_never_commits_success (test_review.Lifecycle.test_failed_finalizer_never_commits_success) ... ok
+test_orphan_becomes_interrupted (test_review.Lifecycle.test_orphan_becomes_interrupted) ... ok
+test_pid_identity_mismatch_not_signaled (test_review.Lifecycle.test_pid_identity_mismatch_not_signaled) ... ok
+test_recover_exact_real_process_then_cancel (test_review.Lifecycle.test_recover_exact_real_process_then_cancel) ... ok
+test_unverified_live_group_blocks (test_review.Lifecycle.test_unverified_live_group_blocks) ... ok
+test_frontmatter_parses (test_review.SkillMetadata.test_frontmatter_parses) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 4.572s
+
+OK
+ok

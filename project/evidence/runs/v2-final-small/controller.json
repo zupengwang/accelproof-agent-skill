@@ -1,0 +1,15 @@
+{
+  "pid": 20064,
+  "created": 1790608574.08,
+  "cmdline": [
+    ".venv/bin/python",
+    "-m",
+    "accelproof.harness",
+    "--scenario",
+    "small",
+    "--run-id",
+    "v2-final-small"
+  ],
+  "pgid": 20064,
+  "boot_id": "08c4dde7-dbcb-4976-8f49-a234f2d9989a"
+}

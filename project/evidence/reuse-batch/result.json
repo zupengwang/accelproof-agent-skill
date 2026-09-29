@@ -1,0 +1,65 @@
+{
+  "operation": "run",
+  "selected_backend": "cpu",
+  "execution_profile": "persistent_batch",
+  "candidate_id": "d673674eead37cba0dc3ad90533923c29a5e60574a7863d3125ff0113d0e404c",
+  "source_workflow_sha256": "e25ba176a7324b33e4fb1b37b4dc7d35772efe42853705bbe7bc93bc88c267d9",
+  "rows": [
+    5000000,
+    5000000
+  ],
+  "input_sha256": [
+    "634e0d56483dcaf90e38c2e5a85537142f90b7b3579d00f273716cc37a207d22",
+    "f0f92441b1876ec62f3ab07b221a979a4f5ecedee804b0d2f5fbe5660bd0c681"
+  ],
+  "scope": "within measured row-count and batch-count envelope; performance is not guaranteed on a new distribution or machine",
+  "model_called": false,
+  "gpu_worker_called": false,
+  "metrics": {
+    "optimized_cpu_same_structure": {
+      "mode": "optimized_cpu_same_structure",
+      "warmup": null,
+      "samples": [
+        2.4925153609365225
+      ],
+      "max_rss_mib": 1257.5078125,
+      "output_sha256": [
+        null
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 26053,
+      "execution_profile": "persistent_batch",
+      "setup_seconds": 0.3065979559905827,
+      "batch_tasks": [
+        {
+          "input": "/home/wangzupeng/agent-skills/accelproof-20260928/state/datasets/requests-5000000-20260928.parquet",
+          "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-batch-final/optimized_cpu_same_structure/batch-0.parquet",
+          "seconds": 1.1637730789370835,
+          "pid": 26053,
+          "input_sha256": "634e0d56483dcaf90e38c2e5a85537142f90b7b3579d00f273716cc37a207d22"
+        },
+        {
+          "input": "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/datasets/requests-5000000-20260929.parquet",
+          "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-batch-final/optimized_cpu_same_structure/batch-1.parquet",
+          "seconds": 1.1366450909990817,
+          "pid": 26053,
+          "input_sha256": "f0f92441b1876ec62f3ab07b221a979a4f5ecedee804b0d2f5fbe5660bd0c681"
+        }
+      ],
+      "backend_imported": "pandas",
+      "read_strategy": "full",
+      "process_wall_seconds": 3.0141274051275104,
+      "observed_peak_rss_mib": 1201.87109375,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 2.4925153609365225
+    }
+  },
+  "parity": null,
+  "total_seconds": 3.5011377541814,
+  "assurance": "manifest verifies content consistency, not publisher identity; accept trusted project packages only"
+}

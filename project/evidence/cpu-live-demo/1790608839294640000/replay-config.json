@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/second.parquet"
+  ],
+  "output": "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-v2/evidence/cpu-live-demo-final/1790608839294640000",
+  "modes": [
+    "optimized_cpu_same_structure"
+  ],
+  "batch": false,
+  "portable_cpu": true,
+  "policy": "/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-z6zhptcc/workflow/policy.json"
+}

@@ -1,0 +1,27 @@
+{
+  "mode": "original_cudf_pandas",
+  "warmup": null,
+  "samples": [
+    12.575853073969483
+  ],
+  "max_rss_mib": 1145.3359375,
+  "output_sha256": [
+    "ee0532ec0a1b4259faae848b8b498cffa899d699eb67978e5e8af1525a7ded4e"
+  ],
+  "includes": [
+    "parquet read",
+    "transform",
+    "serialize",
+    "GPU synchronize when applicable"
+  ],
+  "pid": 24692,
+  "execution_profile": "one_shot",
+  "setup_seconds": 0.5644113488961011,
+  "batch_tasks": [],
+  "backend_imported": "cudf",
+  "read_strategy": "projected",
+  "process_wall_seconds": 15.673601444810629,
+  "observed_peak_rss_mib": 1149.51171875,
+  "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+  "median_seconds": 12.575853073969483
+}

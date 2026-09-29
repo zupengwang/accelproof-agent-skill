@@ -1,0 +1,29 @@
+{
+  "dirs": [
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/accelproof"
+  ],
+  "read": [
+    "/usr",
+    "/lib",
+    "/lib64",
+    "/proc",
+    "/sys",
+    "/etc/ld.so.cache",
+    "/etc/localtime",
+    "/etc/os-release",
+    "/home/wangzupeng/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/.venv",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/.venv",
+    "/home/wangzupeng/competitions/aic-grounding-20260916/.venv/lib/python3.12/site-packages/nvidia/cu13",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/accelproof/__init__.py",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/accelproof/worker.py",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/accelproof/pipeline.py",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/source/accelproof/common.py",
+    "/home/wangzupeng/agent-skills/accelproof-20260928/state/datasets/requests-5000000-20260928.parquet",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/attempts/0/policy.json"
+  ],
+  "write": [
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/runs/v2-final-large/workers/profile"
+  ]
+}

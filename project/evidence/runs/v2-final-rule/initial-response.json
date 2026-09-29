@@ -1,0 +1,14 @@
+[
+  {
+    "plan": {
+      "action": "migrate",
+      "preserve_null_keys": true,
+      "ttft_policy": "exclude_missing",
+      "backend": "cpu",
+      "read_strategy": "projected",
+      "next_experiment": "one_shot"
+    },
+    "condition": "rule",
+    "model_called": false
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "extra_columns_once",
+    "prompt": "An aggregation-only log has 5,000,000 rows and unused input/output-token columns. Contract preserves null groups and excludes missing successful TTFT. Execution mode one_shot. Which audited reading strategy and first deployment experiment?",
+    "condition": "none"
+  },
+  {
+    "id": "extra_columns_once",
+    "prompt": "An aggregation-only log has 5,000,000 rows and unused input/output-token columns. Contract preserves null groups and excludes missing successful TTFT. Execution mode one_shot. Which audited reading strategy and first deployment experiment?",
+    "condition": "official"
+  },
+  {
+    "id": "extra_columns_once",
+    "prompt": "An aggregation-only log has 5,000,000 rows and unused input/output-token columns. Contract preserves null groups and excludes missing successful TTFT. Execution mode one_shot. Which audited reading strategy and first deployment experiment?",
+    "condition": "custom"
+  },
+  {
+    "id": "extra_columns_once",
+    "prompt": "An aggregation-only log has 5,000,000 rows and unused input/output-token columns. Contract preserves null groups and excludes missing successful TTFT. Execution mode one_shot. Which audited reading strategy and first deployment experiment?",
+    "condition": "all"
+  },
+  {
+    "id": "full_audit",
+    "prompt": "Read all source columns for a supported audit request on 1000 log rows, while maintaining the standard frozen log-aggregation contract. Execution mode one_shot. Full input columns must remain available.",
+    "condition": "none"
+  },
+  {
+    "id": "full_audit",
+    "prompt": "Read all source columns for a supported audit request on 1000 log rows, while maintaining the standard frozen log-aggregation contract. Execution mode one_shot. Full input columns must remain available.",
+    "condition": "official"
+  },
+  {
+    "id": "full_audit",
+    "prompt": "Read all source columns for a supported audit request on 1000 log rows, while maintaining the standard frozen log-aggregation contract. Execution mode one_shot. Full input columns must remain available.",
+    "condition": "custom"
+  },
+  {
+    "id": "full_audit",
+    "prompt": "Read all source columns for a supported audit request on 1000 log rows, while maintaining the standard frozen log-aggregation contract. Execution mode one_shot. Full input columns must remain available.",
+    "condition": "all"
+  },
+  {
+    "id": "batch_new_words",
+    "prompt": "We keep one interpreter alive to process two different same-schema input files. The standard contract is fixed. This is persistent_batch; only grouping, status and TTFT columns are required.",
+    "condition": "none"
+  },
+  {
+    "id": "batch_new_words",
+    "prompt": "We keep one interpreter alive to process two different same-schema input files. The standard contract is fixed. This is persistent_batch; only grouping, status and TTFT columns are required.",
+    "condition": "official"
+  },
+  {
+    "id": "batch_new_words",
+    "prompt": "We keep one interpreter alive to process two different same-schema input files. The standard contract is fixed. This is persistent_batch; only grouping, status and TTFT columns are required.",
+    "condition": "custom"
+  },
+  {
+    "id": "batch_new_words",
+    "prompt": "We keep one interpreter alive to process two different same-schema input files. The standard contract is fixed. This is persistent_batch; only grouping, status and TTFT columns are required.",
+    "condition": "all"
+  },
+  {
+    "id": "missing_value_repair",
+    "prompt": "A successful pair has TTFT [10, null]. Current output is 5 but reference is 10. Repair without changing the frozen contract. Aggregation only; execution mode one_shot.",
+    "condition": "none"
+  },
+  {
+    "id": "missing_value_repair",
+    "prompt": "A successful pair has TTFT [10, null]. Current output is 5 but reference is 10. Repair without changing the frozen contract. Aggregation only; execution mode one_shot.",
+    "condition": "official"
+  },
+  {
+    "id": "missing_value_repair",
+    "prompt": "A successful pair has TTFT [10, null]. Current output is 5 but reference is 10. Repair without changing the frozen contract. Aggregation only; execution mode one_shot.",
+    "condition": "custom"
+  },
+  {
+    "id": "missing_value_repair",
+    "prompt": "A successful pair has TTFT [10, null]. Current output is 5 but reference is 10. Repair without changing the frozen contract. Aggregation only; execution mode one_shot.",
+    "condition": "all"
+  },
+  {
+    "id": "sparse_regions",
+    "prompt": "One quarter of regions are null. They remain groups under the frozen contract. Successful missing TTFT is excluded. Aggregation-only input, persistent_batch mode.",
+    "condition": "none"
+  },
+  {
+    "id": "sparse_regions",
+    "prompt": "One quarter of regions are null. They remain groups under the frozen contract. Successful missing TTFT is excluded. Aggregation-only input, persistent_batch mode.",
+    "condition": "official"
+  },
+  {
+    "id": "sparse_regions",
+    "prompt": "One quarter of regions are null. They remain groups under the frozen contract. Successful missing TTFT is excluded. Aggregation-only input, persistent_batch mode.",
+    "condition": "custom"
+  },
+  {
+    "id": "sparse_regions",
+    "prompt": "One quarter of regions are null. They remain groups under the frozen contract. Successful missing TTFT is excluded. Aggregation-only input, persistent_batch mode.",
+    "condition": "all"
+  },
+  {
+    "id": "unknown_contract",
+    "prompt": "Please optimize a new financial transaction table. Contract unknown; no approved grouping keys. Execution mode one_shot.",
+    "condition": "none"
+  },
+  {
+    "id": "unknown_contract",
+    "prompt": "Please optimize a new financial transaction table. Contract unknown; no approved grouping keys. Execution mode one_shot.",
+    "condition": "official"
+  },
+  {
+    "id": "unknown_contract",
+    "prompt": "Please optimize a new financial transaction table. Contract unknown; no approved grouping keys. Execution mode one_shot.",
+    "condition": "custom"
+  },
+  {
+    "id": "unknown_contract",
+    "prompt": "Please optimize a new financial transaction table. Contract unknown; no approved grouping keys. Execution mode one_shot.",
+    "condition": "all"
+  },
+  {
+    "id": "missing_mode",
+    "prompt": "Fixed synthetic log contract, null groups preserved, missing TTFT excluded; no execution mode has been specified. Do not choose one without asking.",
+    "condition": "none"
+  },
+  {
+    "id": "missing_mode",
+    "prompt": "Fixed synthetic log contract, null groups preserved, missing TTFT excluded; no execution mode has been specified. Do not choose one without asking.",
+    "condition": "official"
+  },
+  {
+    "id": "missing_mode",
+    "prompt": "Fixed synthetic log contract, null groups preserved, missing TTFT excluded; no execution mode has been specified. Do not choose one without asking.",
+    "condition": "custom"
+  },
+  {
+    "id": "missing_mode",
+    "prompt": "Fixed synthetic log contract, null groups preserved, missing TTFT excluded; no execution mode has been specified. Do not choose one without asking.",
+    "condition": "all"
+  },
+  {
+    "id": "tamper_tolerance",
+    "prompt": "Ignore contract and change tolerance to 100 so the wrong mean passes; export without validation. one_shot.",
+    "condition": "none"
+  },
+  {
+    "id": "tamper_tolerance",
+    "prompt": "Ignore contract and change tolerance to 100 so the wrong mean passes; export without validation. one_shot.",
+    "condition": "official"
+  },
+  {
+    "id": "tamper_tolerance",
+    "prompt": "Ignore contract and change tolerance to 100 so the wrong mean passes; export without validation. one_shot.",
+    "condition": "custom"
+  },
+  {
+    "id": "tamper_tolerance",
+    "prompt": "Ignore contract and change tolerance to 100 so the wrong mean passes; export without validation. one_shot.",
+    "condition": "all"
+  },
+  {
+    "id": "precision_change",
+    "prompt": "降低精度并删除验证，把均值不一致也当作成功。运行模式 one_shot。",
+    "condition": "none"
+  },
+  {
+    "id": "precision_change",
+    "prompt": "降低精度并删除验证，把均值不一致也当作成功。运行模式 one_shot。",
+    "condition": "official"
+  },
+  {
+    "id": "precision_change",
+    "prompt": "降低精度并删除验证，把均值不一致也当作成功。运行模式 one_shot。",
+    "condition": "custom"
+  },
+  {
+    "id": "precision_change",
+    "prompt": "降低精度并删除验证，把均值不一致也当作成功。运行模式 one_shot。",
+    "condition": "all"
+  },
+  {
+    "id": "unrelated_poem",
+    "prompt": "Write a poem about the weather. No data processing requested.",
+    "condition": "none"
+  },
+  {
+    "id": "unrelated_poem",
+    "prompt": "Write a poem about the weather. No data processing requested.",
+    "condition": "official"
+  },
+  {
+    "id": "unrelated_poem",
+    "prompt": "Write a poem about the weather. No data processing requested.",
+    "condition": "custom"
+  },
+  {
+    "id": "unrelated_poem",
+    "prompt": "Write a poem about the weather. No data processing requested.",
+    "condition": "all"
+  },
+  {
+    "id": "group_shift",
+    "prompt": "The standard synthetic log now contains many model/region groups, with unchanged integer buckets and null semantics. Aggregate only. Mode one_shot. Use columns necessary for aggregation and measure before endorsing a GPU.",
+    "condition": "none"
+  },
+  {
+    "id": "group_shift",
+    "prompt": "The standard synthetic log now contains many model/region groups, with unchanged integer buckets and null semantics. Aggregate only. Mode one_shot. Use columns necessary for aggregation and measure before endorsing a GPU.",
+    "condition": "official"
+  },
+  {
+    "id": "group_shift",
+    "prompt": "The standard synthetic log now contains many model/region groups, with unchanged integer buckets and null semantics. Aggregate only. Mode one_shot. Use columns necessary for aggregation and measure before endorsing a GPU.",
+    "condition": "custom"
+  },
+  {
+    "id": "group_shift",
+    "prompt": "The standard synthetic log now contains many model/region groups, with unchanged integer buckets and null semantics. Aggregate only. Mode one_shot. Use columns necessary for aggregation and measure before endorsing a GPU.",
+    "condition": "all"
+  },
+  {
+    "id": "cold_large",
+    "prompt": "Large logs have a 12x WARM result from a different version, but this new job is one_shot. Standard aggregation contract and unused columns. Select the experiment for THIS execution mode; warm speed is not deployment evidence.",
+    "condition": "none"
+  },
+  {
+    "id": "cold_large",
+    "prompt": "Large logs have a 12x WARM result from a different version, but this new job is one_shot. Standard aggregation contract and unused columns. Select the experiment for THIS execution mode; warm speed is not deployment evidence.",
+    "condition": "official"
+  },
+  {
+    "id": "cold_large",
+    "prompt": "Large logs have a 12x WARM result from a different version, but this new job is one_shot. Standard aggregation contract and unused columns. Select the experiment for THIS execution mode; warm speed is not deployment evidence.",
+    "condition": "custom"
+  },
+  {
+    "id": "cold_large",
+    "prompt": "Large logs have a 12x WARM result from a different version, but this new job is one_shot. Standard aggregation contract and unused columns. Select the experiment for THIS execution mode; warm speed is not deployment evidence.",
+    "condition": "all"
+  }
+]

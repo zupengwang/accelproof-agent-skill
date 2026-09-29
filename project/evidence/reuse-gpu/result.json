@@ -1,0 +1,85 @@
+{
+  "operation": "verify",
+  "selected_backend": "cpu+gpu verification",
+  "execution_profile": "one_shot",
+  "candidate_id": "d673674eead37cba0dc3ad90533923c29a5e60574a7863d3125ff0113d0e404c",
+  "source_workflow_sha256": "0a3807298affb461d71918fa0846b25afcfdd2ac3c0845b521428d4f35c2df49",
+  "rows": [
+    5000000
+  ],
+  "input_sha256": [
+    "f0f92441b1876ec62f3ab07b221a979a4f5ecedee804b0d2f5fbe5660bd0c681"
+  ],
+  "scope": "within measured row-count and batch-count envelope; performance is not guaranteed on a new distribution or machine",
+  "model_called": false,
+  "gpu_worker_called": true,
+  "metrics": {
+    "original_cpu": {
+      "mode": "original_cpu",
+      "warmup": null,
+      "samples": [
+        3.1357274560723454
+      ],
+      "max_rss_mib": 1263.765625,
+      "output_sha256": [
+        "18eee790a3198de6c66894c2abac6eb230428f8ddde090a00f0e68ccc6adef8c"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 25774,
+      "execution_profile": "one_shot",
+      "setup_seconds": 0.3008750251028687,
+      "batch_tasks": [],
+      "backend_imported": "pandas",
+      "read_strategy": "full",
+      "process_wall_seconds": 3.7418024057988077,
+      "observed_peak_rss_mib": 1255.515625,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 3.1357274560723454
+    },
+    "optimized_gpu": {
+      "mode": "optimized_gpu",
+      "warmup": null,
+      "samples": [
+        16.51313435798511
+      ],
+      "max_rss_mib": 1121.234375,
+      "output_sha256": [
+        "7f51079051f1bb4860305e2a5db3a44de499129bd6f954103976c2401ea7c75d"
+      ],
+      "includes": [
+        "parquet read",
+        "transform",
+        "serialize",
+        "GPU synchronize when applicable"
+      ],
+      "pid": 25843,
+      "execution_profile": "one_shot",
+      "setup_seconds": 1.0424542450346053,
+      "batch_tasks": [],
+      "backend_imported": "cudf",
+      "read_strategy": "full",
+      "process_wall_seconds": 18.508603635942563,
+      "observed_peak_rss_mib": 1189.0859375,
+      "sandbox": "network namespace + Landlock ABI >=3 + resource limits + RSS watchdog",
+      "median_seconds": 16.51313435798511
+    }
+  },
+  "parity": [
+    {
+      "pass": true,
+      "diffs": [],
+      "diff_count": 0,
+      "rows": 915,
+      "full_table": true,
+      "rtol": 1e-09,
+      "atol": 1e-08
+    }
+  ],
+  "total_seconds": 22.774104418000206,
+  "assurance": "manifest verifies content consistency, not publisher identity; accept trusted project packages only"
+}

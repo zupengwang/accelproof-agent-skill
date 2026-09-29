@@ -1,0 +1,8 @@
+[
+  {
+    "id": "initial",
+    "prompt": "Migrate 1000 synthetic request-log rows. Contract: preserve null key groups; only status ok succeeds; TTFT mean uses successful nonnull values; float64. Execution mode is one_shot. Extra input/output token columns are unused. Choose full or projected Parquet read strategy and the next mode-specific experiment. CPU is a safe proposal until this mode is measured.",
+    "condition": "all",
+    "stage": "migrate"
+  }
+]

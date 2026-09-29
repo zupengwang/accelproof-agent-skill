@@ -1,0 +1,35 @@
+[
+  {
+    "prompt": "Migrate 1000 synthetic request-log rows. Contract: preserve null key groups; only status ok succeeds; TTFT mean uses successful nonnull values; float64. Execution mode is one_shot. Extra input/output token columns are unused. Choose full or projected Parquet read strategy and the next mode-specific experiment. CPU is a safe proposal until this mode is measured.",
+    "system_sha256": "95d55ab50c4b324a3f51289169d754fe3194c52156b70d8c129a0858cf096dcf",
+    "skill_files": {
+      "vendor/nvidia/accelerated-computing-cudf/SKILL.md": "a71416587cebf94e88be08127b856f145f4c3bddc4a5fbbfe438a0167850f947",
+      "skills/gpu-pipeline-migrate/SKILL.md": "bebac619691aaaa28b7d23c500de6edd5203a00079359aea9e824f03407bedac",
+      "skills/log-pipeline-intake/SKILL.md": "e781ac7e0933a4a7bb3ff95380ee7fe596a364613a34bdfac32abbfa40fdebe2"
+    },
+    "raw_output": "{\"action\":\"migrate\",\"preserve_null_keys\":true,\"ttft_policy\":\"exclude_missing\",\"backend\":\"cpu\",\"read_strategy\":\"full\",\"next_experiment\":\"one_shot\"}",
+    "latency_seconds": 2.474453011061996,
+    "input_tokens": 3035,
+    "output_tokens": 35,
+    "versions": {
+      "model": "Qwen3-VL-8B-Instruct",
+      "mode": "text-only",
+      "torch": "2.13.0+cu130",
+      "transformers": "5.12.1",
+      "decoding": "greedy",
+      "max_new_tokens": 128
+    },
+    "plan": {
+      "action": "migrate",
+      "preserve_null_keys": true,
+      "ttft_policy": "exclude_missing",
+      "backend": "cpu",
+      "read_strategy": "full",
+      "next_experiment": "one_shot"
+    },
+    "schema_valid": true,
+    "id": "initial",
+    "with_skills": true,
+    "condition": "all"
+  }
+]

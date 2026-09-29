@@ -1,0 +1,290 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1010000,
+    "duration": 2678750,
+    "text": "大家"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 3688750,
+    "duration": 3571250,
+    "text": "好"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11341660,
+    "duration": 2933750,
+    "text": "这里"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 14275410,
+    "duration": 1402910,
+    "text": "是"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 15933750,
+    "duration": 2806250,
+    "text": "验速"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 18867500,
+    "duration": 4081660,
+    "text": "工坊"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 28826660,
+    "duration": 2168330,
+    "text": "我们"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31122500,
+    "duration": 1658330,
+    "text": "想"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32908330,
+    "duration": 2295830,
+    "text": "解决"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 35331660,
+    "duration": 1913330,
+    "text": "一个"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 37500000,
+    "duration": 1785830,
+    "text": "很"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 39413330,
+    "duration": 3316250,
+    "text": "实际"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 42729580,
+    "duration": 637910,
+    "text": "的"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 43495000,
+    "duration": 4464160,
+    "text": "问题"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 51658330,
+    "duration": 1530410,
+    "text": "把"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 53316250,
+    "duration": 3443750,
+    "text": "数据"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 56887910,
+    "duration": 2423330,
+    "text": "处理"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59566250,
+    "duration": 3188750,
+    "text": "搬到"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 63010000,
+    "duration": 3443750,
+    "text": "GPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66454160,
+    "duration": 2933750,
+    "text": "上"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71683750,
+    "duration": 3699160,
+    "text": "结果"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 75637910,
+    "duration": 2295830,
+    "text": "到底"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 78061250,
+    "duration": 3954160,
+    "text": "对不对"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 84566250,
+    "duration": 3443750,
+    "text": "实际"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 88137910,
+    "duration": 1530410,
+    "text": "用"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 89668330,
+    "duration": 3316250,
+    "text": "起来"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 93240000,
+    "duration": 1912910,
+    "text": "又"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 95152910,
+    "duration": 1147910,
+    "text": "值"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 96428750,
+    "duration": 4336660,
+    "text": "不值"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 106632500,
+    "duration": 6632500,
+    "text": "接下来"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 116071250,
+    "duration": 1275410,
+    "text": "我"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 117347080,
+    "duration": 1275410,
+    "text": "用"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 118750000,
+    "duration": 3571250,
+    "text": "几段"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 122576660,
+    "duration": 2933750,
+    "text": "真实"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 125637910,
+    "duration": 2806250,
+    "text": "运行"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 128571250,
+    "duration": 3316250,
+    "text": "记录"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 135969580,
+    "duration": 1402910,
+    "text": "带"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 137372500,
+    "duration": 765410,
+    "text": "你"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 138137910,
+    "duration": 1275410,
+    "text": "看"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 139540830,
+    "duration": 765410,
+    "text": "一"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 140306250,
+    "duration": 2168330,
+    "text": "遍"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 148214160,
+    "duration": 5484580,
+    "text": "GPU"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 153826660,
+    "duration": 3188750,
+    "text": "测试"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 157142910,
+    "duration": 3061250,
+    "text": "在"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 161352080,
+    "duration": 8290830,
+    "text": "RTX"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 169770410,
+    "duration": 7270410,
+    "text": "四零九零"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 177040830,
+    "duration": 1785830,
+    "text": "上"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 178954160,
+    "duration": 4974580,
+    "text": "完成"
+  }
+]

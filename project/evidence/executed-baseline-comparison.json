@@ -1,0 +1,19 @@
+{
+  "scope": "one actual run per planner, same small scenario; worker invocations counted from saved sandbox.json files; these are controller subprocess calls, not LLM function calling",
+  "runs": [
+    {
+      "run_id": "v2-final-small",
+      "elapsed_seconds": 108.46568030980416,
+      "model_requests": 1,
+      "isolated_worker_invocations": 13,
+      "validation_status": "PASS"
+    },
+    {
+      "run_id": "v2-final-rule",
+      "elapsed_seconds": 94.87314463313669,
+      "model_requests": 0,
+      "isolated_worker_invocations": 13,
+      "validation_status": "PASS"
+    }
+  ]
+}

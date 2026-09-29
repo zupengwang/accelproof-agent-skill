@@ -1,0 +1,84 @@
+# AccelProof 项目自定义契约草案；不是 cuDF 或 NVIDIA Skills 的官方 schema。
+# 以下字段必须通过独立验证器实现；不可用 eval() 执行任意表达式。
+schema_version: accelproof.contract.v1
+approval_status: adopted_from_user_selected_plan
+approval_scope: synthetic_demo_only
+approval_basis: user_requested_use_this_plan
+immutable_after_approval: true
+scope: llm_request_log_summary
+input:
+  format: parquet
+  provenance: synthetic_with_fixed_seed
+  columns:
+    request_id: {logical_type: string, nullable: false, unique: true}
+    ts_ms: {logical_type: int64, nullable: false, unit: unix_epoch_millisecond}
+    model_id: {logical_type: string, nullable: false}
+    region: {logical_type: string, nullable: true}
+    status: {logical_type: string, nullable: true}
+    input_tokens: {logical_type: int64, nullable: false, minimum: 0}
+    output_tokens: {logical_type: int64, nullable: false, minimum: 0}
+    ttft_ms: {logical_type: float64, nullable: true, minimum: 0}
+transform:
+  derived_columns:
+    minute_ms:
+      operation: floor_to_bucket
+      source: ts_ms
+      bucket_size: 60000
+  group_keys: [model_id, region, minute_ms]
+  preserve_null_key_groups: true
+  status_success_literal: ok
+  unknown_or_null_status: not_successful
+output:
+  row_order: not_semantic
+  key_alignment: [model_id, region, minute_ms]
+  exact_column_order: [model_id, region, minute_ms, request_count, success_count, success_rate, mean_ttft_ms]
+  aggregates:
+    request_count: {operation: count_rows, logical_type: int64}
+    success_count: {operation: count_successful_rows, logical_type: int64}
+    success_rate:
+      operation: divide_success_count_by_request_count
+      logical_type: float64
+    mean_ttft_ms:
+      operation: mean_of_successful_nonnull_ttft
+      logical_type: float64
+      no_valid_values: null
+  empty_input: empty_table_with_declared_schema
+comparison:
+  compare_full_output: true
+  compare_key_set: true
+  compare_logical_dtypes: true
+  compare_null_mask: exact
+  integer_values: exact
+  floating_values:
+    relative_tolerance: 1.0e-9
+    absolute_tolerance: 1.0e-8
+    # 示例容差应经业务确认；候选不得运行时放宽。
+  lower_precision_cast_allowed: false
+protected_assets:
+  - original_script
+  - approved_contract
+  - validation_policy
+  - reference_results
+  - hidden_test_expectations
+benchmark:
+  same_host_required: true
+  same_input_required: true
+  include_read_and_output: true
+  profile_separate_from_timing: true
+  warmup_runs: 1
+  measured_runs: 3
+  headline_statistic: median
+  retain_all_samples: true
+  configurations:
+    - original_cpu
+    - original_cudf_pandas
+    - optimized_cpu_same_structure
+    - optimized_gpu
+  gpu_speedup_denominator: optimized_gpu
+  gpu_speedup_numerator: optimized_cpu_same_structure
+  gain_threshold_fraction: 0.10  # 项目建议门槛，不是行业标准。
+publication:
+  requires_independent_validation: true
+  requires_user_approval: true
+  allow_cpu_workflow_when_no_gain: true
+  never_publish_failed_candidate_as_valid: true

@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/datasets/requests-5000000-20260929.parquet"
+  ],
+  "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-gpu-final",
+  "modes": [
+    "original_cpu",
+    "optimized_gpu"
+  ],
+  "batch": false,
+  "portable_cpu": false,
+  "policy": "/tmp/accelproof-workflow-3eu64tvw/workflow/policy.json"
+}

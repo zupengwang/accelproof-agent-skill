@@ -1,0 +1,31 @@
+{
+  "dirs": [
+    "/tmp/accelproof-workflow-wp8p1_0r",
+    "/tmp/accelproof-workflow-wp8p1_0r/accelproof"
+  ],
+  "read": [
+    "/usr",
+    "/lib",
+    "/lib64",
+    "/proc",
+    "/sys",
+    "/etc/ld.so.cache",
+    "/etc/localtime",
+    "/etc/os-release",
+    "/home/wangzupeng/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu",
+    "/tmp/accelproof-workflow-wp8p1_0r/.venv",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/.venv",
+    "/home/wangzupeng/competitions/aic-grounding-20260916/.venv/lib/python3.12/site-packages/nvidia/cu13",
+    "/tmp/accelproof-workflow-wp8p1_0r/accelproof/__init__.py",
+    "/tmp/accelproof-workflow-wp8p1_0r/accelproof/worker.py",
+    "/tmp/accelproof-workflow-wp8p1_0r/accelproof/pipeline.py",
+    "/tmp/accelproof-workflow-wp8p1_0r/accelproof/common.py",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-batch-final/batch-inputs.json",
+    "/tmp/accelproof-workflow-wp8p1_0r/workflow/policy.json",
+    "/home/wangzupeng/agent-skills/accelproof-20260928/state/datasets/requests-5000000-20260928.parquet",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/datasets/requests-5000000-20260929.parquet"
+  ],
+  "write": [
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-batch-final/optimized_cpu_same_structure"
+  ]
+}

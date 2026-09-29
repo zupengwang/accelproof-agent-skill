@@ -1,0 +1,29 @@
+{
+  "dirs": [
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/accelproof"
+  ],
+  "read": [
+    "/usr",
+    "/lib",
+    "/lib64",
+    "/proc",
+    "/sys",
+    "/etc/ld.so.cache",
+    "/etc/localtime",
+    "/etc/os-release",
+    "/Users/wangzupeng/.cache/codex-runtimes/codex-primary-runtime/dependencies/python",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/.venv",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/venv",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/venv/lib/python3.12/site-packages/nvidia/cu13",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/accelproof/__init__.py",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/accelproof/worker.py",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/accelproof/pipeline.py",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/accelproof/common.py",
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/second.parquet",
+    "/private/var/folders/2q/p3yl2mw934q6c9rvtmdhhk3c0000gn/T/accelproof-workflow-k2ap3eb_/workflow/policy.json"
+  ],
+  "write": [
+    "/Users/wangzupeng/Documents/Codex/2026-09-28/https-mdmv7cyg-jsjform-com-f-f3wrip/work/accelproof-clean-room-v2/final-cpu-result/optimized_cpu_same_structure"
+  ]
+}

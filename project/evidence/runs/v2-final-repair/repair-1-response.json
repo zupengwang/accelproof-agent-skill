@@ -1,0 +1,35 @@
+[
+  {
+    "prompt": "Repair unchanged contract. Exclude missing successful TTFT; do not fill zero. Preserve read_strategy and next_experiment from {\"action\": \"migrate\", \"preserve_null_keys\": true, \"ttft_policy\": \"fill_zero\", \"backend\": \"cpu\", \"read_strategy\": \"full\", \"next_experiment\": \"one_shot\"}. Differences: [{\"case\": \"ttft_missing_success\", \"diffs\": [{\"kind\": \"value\", \"key\": [\"model-a\", \"cn-east\", 0], \"column\": \"mean_ttft_ms\", \"expected\": 10.0, \"actual\": 5.0}]}, {\"case\": \"all_ttft_missing\", \"diffs\": [{\"kind\": \"null_mask\", \"key\": [\"model-a\", \"cn-east\", 0], \"column\": \"mean_ttft_ms\", \"expected\": null, \"actual\": 0.0}]}, {\"case\": \"ttft_missing_success\", \"diffs\": [{\"kind\": \"value\", \"key\": [\"model-a\", \"cn-east\", 0], \"column\": \"mean_ttft_ms\", \"expected\": 10.0, \"actual\": 5.0}]}]",
+    "system_sha256": "db74f86ec117fb8c97049c2de8c51da7c1594c5305b733fd1b41416ba26c8777",
+    "skill_files": {
+      "vendor/nvidia/accelerated-computing-cudf/SKILL.md": "a71416587cebf94e88be08127b856f145f4c3bddc4a5fbbfe438a0167850f947",
+      "skills/dataframe-parity-benchmark/SKILL.md": "a7c4a45163874c7831152507511a21cc0b9ca891f8468598c7a914de6d804bcf",
+      "skills/gpu-pipeline-migrate/SKILL.md": "bebac619691aaaa28b7d23c500de6edd5203a00079359aea9e824f03407bedac"
+    },
+    "raw_output": "{\"action\":\"migrate\",\"preserve_null_keys\":true,\"ttft_policy\":\"exclude_missing\",\"backend\":\"cpu\",\"read_strategy\":\"full\",\"next_experiment\":\"one_shot\"}",
+    "latency_seconds": 2.6154848500154912,
+    "input_tokens": 3266,
+    "output_tokens": 35,
+    "versions": {
+      "model": "Qwen3-VL-8B-Instruct",
+      "mode": "text-only",
+      "torch": "2.13.0+cu130",
+      "transformers": "5.12.1",
+      "decoding": "greedy",
+      "max_new_tokens": 128
+    },
+    "plan": {
+      "action": "migrate",
+      "preserve_null_keys": true,
+      "ttft_policy": "exclude_missing",
+      "backend": "cpu",
+      "read_strategy": "full",
+      "next_experiment": "one_shot"
+    },
+    "schema_valid": true,
+    "id": "repair-1",
+    "with_skills": true,
+    "condition": "all"
+  }
+]

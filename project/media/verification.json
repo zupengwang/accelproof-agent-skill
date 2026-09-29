@@ -1,0 +1,29 @@
+{
+  "video_sha256": "e6a3a70eca5e1e94f02b5eed301db26b4c0db8aacd573b241e7ae2564dada7ef",
+  "full_decode_no_errors": true,
+  "duration_seconds": 194.15,
+  "under_five_minutes": true,
+  "subtitle_cues": 62,
+  "subtitle_times_monotonic": true,
+  "all_narration_text_covered": true,
+  "longest_silence_seconds_at_minus45db": 2.1,
+  "speech_synthesis": "zh-CN-YunxiNeural; not human recording",
+  "human_listening_review_performed": false,
+  "source_recordings_unchanged": true,
+  "measurement_results_unchanged": true,
+  "public_published": false,
+  "frames_for_visual_review": [
+    "scene-01.jpg",
+    "scene-02.jpg",
+    "scene-03.jpg",
+    "scene-04.jpg",
+    "scene-05.jpg",
+    "scene-06.jpg",
+    "scene-07.jpg",
+    "failure-explanation.jpg",
+    "one-shot-1.87-seconds.jpg",
+    "batch-mode.jpg"
+  ],
+  "representative_frames_visually_checked": true,
+  "failure_and_profile_explanations_match_visible_evidence": true
+}

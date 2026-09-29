@@ -1,0 +1,14 @@
+{
+  "archive": "AccelProof-v2.1-自然配音版提交包.zip",
+  "archive_sha256": "d3179928a51bd5e60c5e5982f805f01a3946bea4efb38f7635b0e38129e5c80c",
+  "archive_bytes": 84914300,
+  "files": 2561,
+  "zip_crc_pass": true,
+  "exact_member_set": true,
+  "all_hashes_match": true,
+  "protected_source_files_unchanged": 92,
+  "reports_and_evidence_unchanged": true,
+  "video_sha256": "e6a3a70eca5e1e94f02b5eed301db26b4c0db8aacd573b241e7ae2564dada7ef",
+  "duration_seconds": 194.15,
+  "public_published": false
+}

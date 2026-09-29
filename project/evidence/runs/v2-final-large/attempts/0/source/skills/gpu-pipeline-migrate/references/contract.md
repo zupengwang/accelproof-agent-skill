@@ -1,0 +1,1 @@
+The immutable project contract is specs/contract.yaml. Its SHA-256 is recorded per run. The model never receives oracle expected values. Runtime phase mapping and tests are in accelproof/harness.py and tests/test_core.py.

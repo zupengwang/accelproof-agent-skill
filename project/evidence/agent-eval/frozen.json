@@ -1,0 +1,11 @@
+{
+  "spec_sha256": "1377d4e63b1aed3565bd085514ef559a0ede94a5dcb203451feacae2d942e11c",
+  "protocol": "v2: 12 frozen reworded tasks; four model conditions plus fixed rule; one greedy generation each; policy scoring is not GPU end-to-end success; tool count zero during planning",
+  "conditions": [
+    "none",
+    "official",
+    "custom",
+    "all",
+    "rule"
+  ]
+}

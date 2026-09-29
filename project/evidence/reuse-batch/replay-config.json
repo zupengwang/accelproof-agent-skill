@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    "/home/wangzupeng/agent-skills/accelproof-20260928/state/datasets/requests-5000000-20260928.parquet",
+    "/home/wangzupeng/agent-skills/accelproof-review-20260928/state/datasets/requests-5000000-20260929.parquet"
+  ],
+  "output": "/home/wangzupeng/agent-skills/accelproof-review-20260928/evidence/reuse-batch-final",
+  "modes": [
+    "optimized_cpu_same_structure"
+  ],
+  "batch": true,
+  "portable_cpu": false,
+  "policy": "/tmp/accelproof-workflow-wp8p1_0r/workflow/policy.json"
+}
